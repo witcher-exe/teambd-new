@@ -9,6 +9,7 @@ import teamNazmul from "@/assets/nazmul.png";
 import teamLogo from "@/assets/tblogo.png";
 import teamAruni from "@/assets/aruni.jpeg";
 import teamNahreen from "@/assets/nahreen.jpeg";
+import sultanaImg from "@/assets/sultana.jpg";
 
 export const Route = createFileRoute("/committees")({
   head: () => ({
@@ -46,7 +47,7 @@ const ADVISORS: Person[] = [
 ];
 
 const EXEC: Person[] = [
-  { n: "01", name: "Sultana Ahmed, MP", role: "Member", bio: "Heads the organization and chairs the executive committee.", img: teamLogo },
+  { n: "01", name: "Sultana Ahmed, MP", role: "Member", bio: "Heads the organization and chairs the executive committee.", img: sultanaImg },
   { n: "02", name: "Salima Talukder Aruni", role: "Member", bio: "Internal logistics and executive strategy planning.", img: teamAruni },
   { n: "03", name: "Nazmul Bari", role: "Member", bio: "Day-to-day operations and inter-committee coordination.", img: teamNazmul },
   { n: "04", name: "Dr. Muhit A Rana", role: "Member", bio: "Founding visionary and strategic guide.", img: teamPrecident },

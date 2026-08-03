@@ -19,6 +19,7 @@ import teamNazmul from "@/assets/nazmul.png";
 import teamLogo from "@/assets/tblogo.png";
 import teamAruni from "@/assets/aruni.jpeg";
 import teamNahreen from "@/assets/nahreen.jpeg";
+import sultanaImg from "@/assets/sultana.jpg";
 
 import slide1 from "@/assets/slide_img1.jpeg";
 import slide2 from "@/assets/slide_img2.jpeg";
@@ -384,7 +385,7 @@ const TEAM = [
     name: "Sultana Ahmed, MP",
     role: "Member",
     org: "Team Bangladesh",
-    img: teamLogo,
+    img: sultanaImg,
     bio: "Actively contributing to the strategic and humanitarian operations of Team Bangladesh, driving progressive change within the community.",
     fb: "#",
   },
@@ -467,7 +468,7 @@ function Team() {
                     alt={m.name}
                     loading="lazy"
                     className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-[400px] md:w-[400px] rounded-3xl border-4 border-white shadow-2xl bg-white"
-                    style={{ objectFit: (m.name === 'Rakin Ahmed Bhuiyan' || m.name === 'Sultana Ahmed, MP') ? 'contain' : 'cover' }}
+                    style={{ objectFit: (m.name === 'Rakin Ahmed Bhuiyan') ? 'contain' : 'cover' }}
                   />
                 </div>
                 <div>
